@@ -167,6 +167,7 @@ import { ImageWithFallback } from "@/components/ImageWithFallback";
 
 import petNest from "../../../public/Assest/petNest.png";
 import codeZen from "../../../public/Assest/codeZen.png";
+import intervIQa from "../../../public/Assest/intervIQa.png";
 
 export default function ProjectsSection() {
     // const projects = [
@@ -234,13 +235,39 @@ export default function ProjectsSection() {
 
 
     const projects = [
+        {
+  id: 1,
+  title: "IntervIQa – AI-Powered  Interview Platform",
+  description:
+    "An AI-driven mock interview platform that simulates real technical interviews using LLMs, providing role-based questions, answer evaluation, and detailed performance insights.",
+  category: "Full Stack / AI",
+  date: "Feb 2026",
+  technologies: [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "LLMs (Groq, Gemini)",
+    "JWT",
+    "Google OAuth"
+  ],
+  image: intervIQa,
+  highlights: [
+    "Role & experience-based AI-generated interview questions",
+    "Timed live interview flow with automated answer evaluation",
+    "RAG-based weakness tracking and interview performance reports",
+    "Admin dashboard for managing skills, difficulty, and AI prompts"
+  ],
+  link: "https://interviqa-ai.vercel.app/",
+  github: "https://github.com/Shuvam012"
+},
   {
-    id: 1,
+    id: 2,
     title: "PetNest – E-Commerce Platform",
     description:
       "A full-stack pet-care e-commerce platform focused on performance, clean backend architecture, and scalable data handling.",
     category: "Full Stack",
-    date: "Present",
+    date: "Jan 2026",
     technologies: [
       "React",
       "Tailwind CSS",
@@ -260,7 +287,7 @@ export default function ProjectsSection() {
   },
 
   {
-    id: 2,
+    id: 3,
     title: "CodeZen – Online Quiz Platform for Developers",
     description:
       "A developer-focused quiz platform with secure authentication, role-based access, and dynamic quiz management.",
@@ -285,7 +312,7 @@ export default function ProjectsSection() {
   },
 
   {
-    id: 3,
+    id: 4,
     title: "NoteNest – Note Management App",
     description:
       "A responsive note-taking application with efficient state management and duplicate prevention logic.",
@@ -307,29 +334,30 @@ export default function ProjectsSection() {
     github: "https://github.com/Shuvam012"
   },
 
-  {
-    id: 4,
-    title: "Muzuly – Real-Time Music Streaming App",
-    description:
-      "A real-time collaborative music streaming application enabling users to listen together and interact live.",
-    category: "Full Stack",
-    date: "Jun 2025",
-    technologies: [
-      "React",
-      "Node.js",
-      "Socket.io",
-      "MongoDB"
-    ],
-    image:
-      "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1080&q=80",
-    highlights: [
-      "Real-time song synchronization",
-      "Live user interaction using WebSockets",
-      "Custom playlist management"
-    ],
-    link: "#",
-    github: "https://github.com/Shuvam012"
-  }
+//   {
+//     id: 4,
+//     title: "Muzuly – Real-Time Music Streaming App",
+//     description:
+//       "A real-time collaborative music streaming application enabling users to listen together and interact live.",
+//     category: "Full Stack",
+//     date: "Jun 2025",
+//     technologies: [
+//       "React",
+//       "Node.js",
+//       "Socket.io",
+//       "MongoDB"
+//     ],
+//     image:
+//       "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1080&q=80",
+//     highlights: [
+//       "Real-time song synchronization",
+//       "Live user interaction using WebSockets",
+//       "Custom playlist management"
+//     ],
+//     link: "#",
+//     github: "https://github.com/Shuvam012"
+//   }
+
 ];
 
 
